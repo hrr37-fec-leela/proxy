@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FEC Hectron</title>
+</head>
+<body>
+  <div id="shoegallery"></div>
+  <div id="shoereview"></div>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="http://localhost:3005/bundle-hector.js"></script>
+<script src="http://localhost:3006/bundle-cody.js"></script>
+<script src="https://use.fontawesome.com/695d9d573a.js"></script>
+<script>
+      ReactDOM.render(
+        React.createElement(ShoeReview),
+        document.getElementById('shoereview')
+      );
+</script>
+<script>
+    ReactDOM.render(
+      React.createElement(ShoeGallery),
+      document.getElementById('shoegallery')
+    );
+</script>
+</body>
+</html>
